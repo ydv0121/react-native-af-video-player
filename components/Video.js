@@ -387,7 +387,7 @@ class Video extends Component {
           paused={paused}
           resizeMode={resizeMode}
           repeat={loop}
-          style={fullScreen ? styles.fullScreen : inline}
+          style={{height:'100%',width:'100%'}}
           ref={(ref) => { this.player = ref }}
           rate={rate}
           volume={volume}
